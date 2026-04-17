@@ -1,0 +1,31 @@
+OPERATOR : IT WILL PERFORM AN OPERATION BETWEEN OPERANDS OR VALUES OR OPERANDS TO VALUES
+
+airthemetic 
+assignment  :-- will assign a value to the variable
+
+=   :- assignment  :-- will assign value to variable
++=  :- add & assign :-- it will add the values and assign to 			a variable
+-=  :- subtract & assign :-- it will subtract the values  				and assign variable
+*=  :-- multiply & assign :--it will multiply the values  				and assign to  variable
+%=  :-- modulo division & assign :--it will modulus division 			the values  and assign to  variable
+/=  :-- division && assign :-- it will perform  division 			operation and assign to  variable
+
+//= :-- floor division & assingn :--it will perform  floor 			division operation and assign to  			variable
+**= :-- quoetient & assign :-- it will perform  power  				operation and assign to  variable
+
+============================================================
+relational  :-- is used to compare the two values or 			operands or operand to values
+
+==  :- equal :-- it will check the two values are equal or 		not
+>   :-- greater then :-- it will check first number is 			bigger or not then compare to second number
+<   :-- less then  : -- it will check first number is 			lower or not then compare to second number
+>=  :-- greater then or equals :- it will check first number 			is bigger or equals or not then 			compare to second number
+<= :-- less then or equals :-- it will check first number 			is lower or equals or not then 				compare to second number
+!= :-- not equals :-- will not equal each other
+
+
+logical
+membership
+identify
+bitwise 
+ternary 

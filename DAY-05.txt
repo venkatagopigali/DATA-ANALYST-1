@@ -1,0 +1,43 @@
+bitwise :== to perform computer calculation
+
+bitwise and(&)
+bitwise or(|)
+bitwise xor(^)
+bitwise not(~)  :-- will convert into positive number to negative or negative number positive number '-(x+1)'
+
+left shift (<<) :-- will move the binary values to left 			side
+
+right shift(>>) :-- will move the binary values to right 			side
+
+
+terinary operator :-- will used to reduce the code
+
+data types :-- will mention which type data it is
+
+type() :-- will check the datatype
+
+primitive datatype : here we can pass only one value at a 			time
+
+int      :-- the number should be without decimal points
+float    :-- the number should be with decimal points
+string   :-- collection of characters   -- " "
+	   character :-- a single letter it could be 			anything alphabets,numbers,special 			symbols
+
+boolean  :--  True or False
+complex  :-- here we have real part and imagenary part
+ex:--10+7j
+
+10-->real part
+7j-->imagenary part
+
+
+
+non primitive datatype
+
+
+
+
+
+
+
+

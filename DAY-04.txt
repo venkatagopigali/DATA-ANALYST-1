@@ -1,0 +1,32 @@
+operators :
+
+airthemetic
+assignment
+relational
+logical    :-- will check the condition are true or false
+
+and  :- here the all conditions must be true
+or   :- here atleast one condition must be true
+not  :- true --> false ,, false --> true
+
+membership :-- will check is element is present or not in 		group of elements
+
+in      :-- the element is present in a group of element
+not in  :-- the element is not present in a group of 		    elements
+
+identify :-- will check location of data
+
+is      :-- the both data locations are same
+is not  :-- the both data locations are different
+
+bitwise  :-- will calculate computer calculation
+
+bitwise and  (&): 
+bitwise or   (|)
+bitwise xor  (^)
+bitwise not  
+left shift
+right shift
+
+
+terinary

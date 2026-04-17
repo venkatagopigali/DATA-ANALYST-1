@@ -1,0 +1,59 @@
+VARIABLES :-- IT IS NOTHING BUT A CONTAINER IS USED STORE LOCATION OF DATA
+
+id() -- used to see the location of data
+
+rules for variable declarations :
+
+>>>start with alphabets (a-z,A-Z)
+>>>start with underscore (_)
+>>>can not start with numbers(0-9)
+>>>we cannot mention any special symbols except underscore
+>>>we can not use reserved words  -- 35 reserved word
+
+
+operators :-- it will perform an operation between operands or values or operand to values
+
+operands -- nothing but variable
+values -- nothing but numbers
+
+
+ex:-- a=10,c+d
+
+= :-- operator
+a :-- operand or variable
+10:-- values
+
+arithmetic operators : it will perform mathematical 				operations
++  :-- addition  -- will add two numbers 
+-  :-- subtract  -- will subtract numbers
+*  :-- multiplication -- will multiply the two numbers
+%  :-- modulo division -- will return remainder
+/  :-- division  -- will return quotient 
+// :-- floor division -- will return quotient
+** :-- exponent -- will calculate the power values
+
+
+
+assignment operators
+relational operators
+membership operator
+identity operator
+logical operator
+bitwise operator
+ternary operator
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

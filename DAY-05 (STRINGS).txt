@@ -1,0 +1,35 @@
+string :-- collection of characters 
+character : a single letter (alphabets,number,special symbols)
+
+declaration of string :
+
+we can declare in three ways
+
+>>>single quotes (' ')
+>>>double quotes (" ")
+>>>triple quotes (''' ''')
+
+
+>>>we can access the string with index values
+
+>>>index is used to get a single element
+
+positive indexing :-- will start from zero
+>>>left to right
+negative indexing :-- will start from -1
+>>>right to left
+
+
+slicing :-- we can get more the one element
+
+[start index:stop index:step index]
+
+
+
+
+
+
+
+
+
+

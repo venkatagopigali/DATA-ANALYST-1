@@ -1,0 +1,39 @@
+WHAT IS PYTHON :
+
+IT IS PROGRAMING LANGUAGE
+
+PROGRAMING -- SET OF INSTRUCTIONS
+
+>>>IT HIGH LEVEL LANGUAGE  :-- HUMAN CAN UNDERSTADABLE
+
+pvm(python virtual machine) -- it will convert the high level to low level or
+low level to high level 
+
+>>>interpreted and compiler language
+
+interpreted -- line by line excecution
+
+complier -- will execute the entire code at a time
+
+>>>it is object oriented programing
+
+>>>dynamically typed language  :-- here no need mention mention the data type
+
+easy to understand
+
+why python:
+
+it has more then 250+ libraries
+>>>it is used in llms,ml,dl
+>>>web development
+>>>automation 
+
+
+
+
+
+
+
+
+
+
