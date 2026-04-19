@@ -1,0 +1,12 @@
+slicing :-- to access the multiple elements in a string
+
+[start index : stop index : step]
+
+[start index : stop index ] :-- by defaultly :-step -->1
+[ :stop index  ]            :-- by defaultly :-						step -->1,start-->0
+[start index : ]            :-- by defaultly :-						step -->1,stop :-- len(string)
+[::step]                    :-- by defaultly :-						start -->0,stop :--len(string)
+
+
+>>>string is immuatable :-- which cannot be changeble
+
