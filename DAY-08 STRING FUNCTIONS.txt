@@ -1,0 +1,24 @@
+string functions :-- will perform only string type of 				data
+
+upper()   :-- will convert the small case letter to upper 	      case letters
+lower()   :-- will convert the upper case letters to 		      small case letters
+len()     :-- will return the no.of characters in a 		      string
+replace() :-- will modify the string or will replace the  	      old text with the text
+	      >>>originalstring.replace('old','new')
+strip()   :-- will remove the staring and ending spaces
+lstrip()  :-- will remove the starting space only
+rstrip()  :-- will remove the ending spaces only
+startswith() :-- will check the start with the character 		or not which will mention by user
+endswith() :-- will check the string ends with the 			character or not which will mention by 			user
+swapcase() :-- will convert the small case letters to 			upper case and upper case to small case 
+title()     :-- here every word first character is 			capital remaning all small case
+capitalize():-- here the first character of string is 			capital and remaining all are small case
+join()      :-- will combine all string into a single 			string
+                >>>delimiter.join(variable)
+split()     :-- will separate the string 
+	    >>> originalstring.split(delimiter)
+isupper()
+islower()
+isdigit()
+isalnum()
+isalpha()
