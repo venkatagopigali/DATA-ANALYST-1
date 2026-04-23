@@ -1,0 +1,23 @@
+string function:
+
+isupper()  :-- will check the entire string is in upper 		case or not
+islower()  :-- will check the entire string is in lower 		case or not 
+isalpha()  :-- will the string contain alphabets or not
+isdigit()  :-- will check string contain numbers or not
+isalnum()  :-- will check the string contain alphabets or 		numbers
+
++      :-- will concatenation the string
+*      :-- will repeat the string
+in     :-- will check the charater or string present in		   original string
+not in :-- will check the charater or string present not 	   in original string
+
+
+ord()   :-- will convert the character into ascci
+chr()   :-- will convert the ascci value to character
+count() :-- will check the string or character how many 	    time will repeat in original string
+
+
+
+
+
+

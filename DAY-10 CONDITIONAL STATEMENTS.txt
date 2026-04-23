@@ -1,0 +1,43 @@
+conditional statements :-- will return a result based on 			condition
+
+
+if            :-- it contain only true result 
+
+>>>if condition:
+	#true result
+
+if-else       :-- it contain one true result and false 			  result
+
+>>>if condition:
+	#true result
+   else:
+	#false result
+
+
+if-elif-else  :-- here we have two true statement one 			false statement
+
+>>>if condition1:
+	# true result1
+   elif condition2:
+	# true result2
+   else:
+	# false result
+
+
+elif ladder :-- here we have more then two true 			statements  here false statement is 			optional
+
+>>>if condition1:
+	#true result1
+ elif condition2:
+	#true result2
+ elif condition3:
+	#true result3
+         |
+	 |
+	 |
+ else:
+	#false statement
+
+
+netsed if
+match case
