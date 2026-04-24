@@ -1,0 +1,35 @@
+conditional statements :
+
+
+if 
+if else
+if elif else
+elif ladder
+nested if    :-- we can mention if statement in anther 		if statement
+
+>>>if condition:
+	if condition:
+		# true result
+	else:
+		#false result
+   else:
+	# false result
+
+
+match case :-- here we can mention more then one 		condition
+
+match variable:
+	case value1:
+		# true result1
+	case value2:
+		# true result2
+	case _:
+		# flase result
+
+
+
+
+
+
+
+
