@@ -1,0 +1,20 @@
+looping statements :-- will repeat task multiple time up to condition satified or collection iterations
+
+
+range()   :-- to print sequence of numbers
+
+>>>range(start,stop,step)  >> always stop = value-1
+>>>range(start,stop)   >> by defaultly step -->1
+>>>range(stop) >>by defaultly start-->0,step-->1
+
+for   :-- will use when we know the particular condition
+
+>>>for i sequence:
+	#block of code 
+
+
+
+
+
+
+while
