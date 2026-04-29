@@ -1,0 +1,17 @@
+controlling statements : will perform on iterations or looping statements
+
+break     :-- will stop the all further iteration 		from condition, when it is true
+
+>>>break
+
+continue  :-- will skip only the current iteration
+
+>>>contineu
+
+pass     :-- to represent empty block code 
+
+>>>pass
+
+
+
+
