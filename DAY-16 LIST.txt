@@ -1,0 +1,37 @@
+non primitive datatype :-- we can assign more then one  value into a single variable
+
+list       :-- collection of elements
+>>>heterogeneous elements  -->it will accept all type 	of datatypes (int,float,string,bool,complex)
+>>>ordered collection of element
+>>>will be allow the duplicates values
+>>>mutable collection elements  --> which data is 					changeable
+
+declaration of list:
+--------------------------------------------
+>>>[] or list()
+
+accessing the list:
+--------------------------------------------
+we can access the list through index values
+
+>>>index value :-- to get a single element
+positive  :-- start from 0 --> left to right
+negative  :-- start from -1 --> right to left
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tuple
+set
+dictionary

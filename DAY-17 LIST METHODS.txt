@@ -1,0 +1,23 @@
+slicing :-- will used to get more then one element
+[start:stop:step] 
+[:stop:step]        -- start-->0
+[start::step]	    -- stop-->end of list
+[start:stop]	    -- step-->1
+
+list methods :--
+
+append()   :-- will add a element at end of the list
+extend()   :-- will add a more then one element at end of 	       list
+insert(index,value)   :-- will add a element in certain 			   index position
+remove(value)   :-- will delete the element from list
+pop()           :-- will delete the element which end of 		    list
+pop(i)          :-- will delete the particular element based 		    on index value
+len()           :-- will return the no.of elements present 		    in a list 
+reverse()       :-- will reverse the list 
+count()         :-- will return the element how many time it 			will repeated
+
+
+
+
+
+
