@@ -1,0 +1,42 @@
+tuple :-- collection elements
+>>> heterogeneous element --> will accepts different 				datatypes
+>>>immutable     --> can not modify the data
+>>>ordered collection
+>>>duplicates allow
+
+declaration of tuple:
+-------------------------
+>>>() or tuple()
+
+>>>access with index values
+
+methods in tuple:
+------------------------------------------
+index()   --> to find the index position of value
+count()   --> will return no duplicate values which 	      will mention by user
+
+======================================================
+set :- collection of elements
+>>>heterogeneous element  -->will contain different 			     datatypes
+>>>mutable 
+>>>unordered collection
+>>>will not allow the duplicates
+>>>will not access by index values
+
+declaration of set:
+-------------------------------------
+set()  or {value}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
