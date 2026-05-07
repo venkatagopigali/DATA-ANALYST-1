@@ -1,0 +1,36 @@
+functions :-- it is block of code which is reusable
+
+>>>will reduce the space complexity
+>>>will reduce the time complexity
+
+creation of function :
+
+def function_name():
+    #block of code
+
+calling the function:
+>>>function_name()
+
+here we have mainly two types of functions :--
+
+predefined function    :-- the function created by python developers which cannot be modified
+
+>>>len(),count(),print(),sum() etc---- 
+
+
+userdefined functions   :-- the functions created by users 
+
+in userdefined functions we have two
+
+parameter  :--the variable which mention inside the 		function
+arguments  :-- the value which are mention calling 		function
+
+>>>without parameter  :-- we cannot declare any parameter inside the function
+
+>>>with parameter 
+
+
+
+
+
+
