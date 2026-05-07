@@ -1,0 +1,25 @@
+set methods :--
+
+add()     :-- will send a element into the set
+remove()  :-- will delete the element but if the 		element is not present in set will 		raise error
+discard() :-- will delete the element, if the element 		is not present in a set it will skip 		it.
+pop()     :-- will remove any one element in a set 
+clear()   :-- will delete all elements at a time
+
+set operators :-- will combine the two sets
+
+union                (|)  :-- will return all values 			from both sets but will 			return only once which are 			duplicates
+
+
+intersection         (&)  :-- will return only common 			values
+difference           (-)  :-- will return all 				elements from the first set 			which are not common
+symetric_difference  (^)  :-- will return all 				elements from the both set 			which are not common
+
+
+
+
+
+
+
+
+

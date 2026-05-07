@@ -1,0 +1,28 @@
+dictionary :-- collection of elements
+>>>element in the pattern {key:value} pair
+>>>heterogenious elements
+>>>ordered collection
+>>>key-->immutable, value-->mutable
+>>>key--> will not allow the duplicates,value --> will allow the duplicates
+
+>>>here we can access the values with keys
+dict_name['key']
+
+dictionary methods :
+--------------------------------------
+keys()     :-- will return the keys in a dictionary
+values()   :-- will return the values in a dictionary
+items()    :-- will return both key and values in the form 		tuple
+pop()      :-- will remove key value in a dict
+popitem()  :-- will remove last key value pair in dict
+get()      :-- will access the value based on key
+update()   :-- will modify value 
+clear()    :-- will delete all items in a dict
+
+
+
+
+
+
+
+
