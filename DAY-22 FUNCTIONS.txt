@@ -1,0 +1,29 @@
+user defined function :-- which will created by user
+>>>we can modify anytime 
+
+def function_name():
+	# block of code
+
+calling the function:
+>>>function_name()
+
+
+without parameters:
+>>>we cannot pass any variables inside the function 
+
+with parameters :
+>>>we can pass the variable inside function
+
+
+default      :-- here we can mention variable and value inside 			function
+positional   :-- here we can mention variables as parameter and 		values as arguments
+keyword      :-- here we can mention variable as parameters and 
+		values as argument but here we can change order 		of arguments
+*variable    :-- here we can pass more then one element at a 				time
+**kwvariable :-- 
+
+
+
+
+
+
