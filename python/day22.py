@@ -110,6 +110,8 @@
 #     print(d)
 # cal(10,20,d=30,c=40)
 
-def cal(*a):
-    print(sum(a))
-cal(10,20,30,40,50)
+# def cal(*a):
+#     print(sum(a))
+# cal(10,20,30,40,50)
+
+

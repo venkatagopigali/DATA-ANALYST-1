@@ -1,0 +1,9 @@
+with paramenters :
+
+default
+positional
+keyword
+*args      :-- here we can pass more then one value into single 		variable
+	>>> by dafultly values store in tuple
+**kwargs   :-- here we can pass more then one value into single 		variable in the form of key:value pair 
+	>>> by dafaulty store in dictionary
