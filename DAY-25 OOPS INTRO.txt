@@ -1,0 +1,45 @@
+oops : object oriented programing language
+
+>>>modularity :-- here the every code in the form class 		and object
+>>>we can increase the readability
+>>>code reusability 
+>>>we can provide security
+>>>we can hide the code 
+
+types :
+
+class     	:-- it is nothing architecture or it is 			blue print of object
+
+>>>class class_name:
+	#block of code
+
+object         :-- it nothing the real world entites 
+                  or instace of a class
+
+>>>object_name=class_name()
+
+
+constructor :-- __init__() :-- the constructor is automatically excuted block when we create object for a class
+
+default constructor       :-- we donnot have any parameters inside constructor
+>>>def __init__(self):
+ 	# block of code
+
+parametrized constructor :-- we can pass the parameters inside constructor
+
+>>>def __init__(self,parameter1,parameter2---):
+	# block of code
+
+method :-- it is nothing but a function which is mention inside the class
+
+
+
+
+inheritance
+polymorphism
+abstraction
+encapsilation
+
+
+
+

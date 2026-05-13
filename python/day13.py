@@ -25,13 +25,13 @@
 #         c=c+1
 # print(c)
 
-s=input("enter your name : ")
-c=0
-for i in range(len(s)):
-    if s[i] in 'aeiouAEIOU':
-        c=c+1
-        print(s[i])
-print(c)
+# s=input("enter your name : ")
+# c=0
+# for i in range(len(s)):
+#     if s[i] in 'aeiouAEIOU':
+#         c=c+1
+#         print(s[i])
+# print(c)
 
 # s=input("enter name :")
 # print(s)

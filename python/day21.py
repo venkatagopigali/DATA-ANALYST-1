@@ -31,7 +31,7 @@
 # add(10,20)
 
 
-
-def greet():
+#without paramenters
+def greet():    # donnot mention any variables inside function
     print("hello ,how are you")
 greet()

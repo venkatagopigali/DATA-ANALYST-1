@@ -35,6 +35,6 @@
 # print(ord('A'))
 # print(chr(108))
 
-print('prasanna'.count('a'))
-print('prasanna'.count('n'))
-print('PRASANNA'.count('AN'))
+# print('prasanna'.count('a'))
+# print('prasanna'.count('n'))
+# print('PRASANNA'.count('AN'))

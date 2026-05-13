@@ -26,9 +26,9 @@
 
 
 
-d={'name':'gopi','position':'data scientist','qualification':'Msc'}
+# d={'name':'gopi','position':'data scientist','qualification':'Msc'}
 # d['name']='raju'
 # d.update({'name':'raju','qualification':'M.Tech'})
 # print(d)
-d.clear()
-print(d)
+# d.clear()
+# print(d)

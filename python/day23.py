@@ -42,7 +42,6 @@ cal(30,40,10,40,'prasanna')'''
 
 
 def dic(**a):
-    # print(a.items())
     d={}
     for i,j in a.items():
         d[j]=i
