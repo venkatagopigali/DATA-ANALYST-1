@@ -1,0 +1,19 @@
+self :-- we can use the self keyword for declare the instance 		variable
+
+
+global variable    :-- we can use anywhere in .py file or we can 			use though out entire code
+>>>we can declare outside class and outside method and outside 	function
+
+
+local variable      :-- we can use only one block of code
+>>>we can declare inside function or methods
+
+
+class variable     :-- we can use anywhere inside class
+>>>we can declare inside class and outside methods
+
+>>>we access the class variable "classname.variable"
+
+instance variable  :-- we can use in any methods
+>>>we can declare inside method declaration
+>>>we can access the instance variable using self keyword
