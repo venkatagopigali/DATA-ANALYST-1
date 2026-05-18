@@ -1,0 +1,48 @@
+data :-- collection information
+ex:text,images,mp3,mp4
+
+database :-- we are used to store data
+
+RDBMS  :- RELATIONAL DATABASE MANAGEMENT 	SYSTEM
+>>>Here the data will be stored in the table
+>>>table is nothing collection row and column
+ or records and fields
+
+>>>here we are using "SQL" to access data from RDBMS
+
+
+DBMS   :--DATABASE MANAGEMENT SYSTEM
+>>>Here the data will be stored in the form text  -->json -->{key:value}
+>>>here we are useing MongoDB/NoSQL to access the data from DBMS 
+
+SQL :-- STRUCTUIRED QUERY LANGAUGE
+
+DDL  :-- DATA DEFINITION LANGUAGE:--  will perform operation on table heading or table architecture and database
+
+>>>create ,alter,rename,truncate,drop
+
+
+DML :-- data manipulation language :-- will perform operation on table data
+
+>>>insert,update,delete
+
+DCL  :-- data control language :-- will give permission or remove the permission from user
+>>>grant,revoke
+
+TCL :-- transaction control language :-- will get back the data
+>>>commit,rollback,savepoint
+
+DQL :-- data query language :-- will display the table information
+>>>select 
+
+
+MYSQL
+ORACLE
+POSTGREE
+SQL SERVER
+SQLITE
+
+
+
+
+

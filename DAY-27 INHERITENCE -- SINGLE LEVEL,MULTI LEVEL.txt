@@ -1,0 +1,47 @@
+mainly we have four piller in oops
+
+inheritance  :-- we can extract the features from 		one software to another software
+
+single level  :-- here we have two classes i.e parent , and child
+
+syntax:
+---------------
+class class_name1:
+	# block of code
+class class_name2(class_name1):
+	# block of code
+
+
+multi level  :-- here we have three classess
+i.e grand_parent,parent,child
+
+
+syntax:
+--------------------------
+class grand_parent:
+	#block of code
+class parent(grand_parent):
+	#block of code
+class child(parent):
+	#block of code
+
+
+
+
+
+
+
+
+multiple
+hyrarical
+hybrid
+
+
+
+
+
+
+
+polymorphism
+abstraction
+encapisilation

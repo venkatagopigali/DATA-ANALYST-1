@@ -1,0 +1,23 @@
+single level
+multi level
+multiple     :-- we have more then one parent 		class and one child class
+class father:
+	# block of code
+class mother:
+	# block of code
+class child(father,mother):
+	# block of code
+
+
+hyrarical :--here we have only one child class and more then one parent class
+
+class parent:
+	# block of code
+class child1(parent):
+	# block of code
+class child2(parent):
+	# block of code 
+
+
+
+hybrid  :-- here any combination two inheritece(single level,multi level,hyrarical,multiple)
