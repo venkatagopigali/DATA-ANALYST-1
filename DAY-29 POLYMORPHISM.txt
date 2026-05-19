@@ -1,0 +1,14 @@
+polymorphism :-- ploy --> many, morphism--> forms
+>>>here a method can acts as different different ways
+
+duck typing         :-- here we are accesing method 		from two different classes by using 		single object
+
+
+method overloading  :-- here we have same methods but 		different parameters in same class
+>>>it will not work in python
+
+>>>in python we are trying to pass more then one value into single variable
+
+
+method overriding
+operator overloading
