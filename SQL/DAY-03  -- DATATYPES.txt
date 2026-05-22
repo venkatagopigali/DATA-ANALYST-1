@@ -1,0 +1,87 @@
+DATATYPE :-- will identify the which type of data it is
+
+numerical  :-- will send only numerical inforamtion
+---------------------------------------------
+int           :-- the data without decimal points
+		  --> 4 bytes  --> (2**31)-1
+bigint        :-- the data without decimal points
+		  --> 8 bytes  --> (2**63)-1
+float         :-- the data with decimal points
+		  --> 4 bytes  --> (2**31)-1
+		  --> here by default get 5 values after decimal 			point
+double	      :-- the data with decimal points
+		  --> 8 bytes  --> (2**63)-1
+		  --> here by default get more then 5 values after 			decimal point
+decimal(s,p)  :-- the data with decimal points
+		  --> we can select how many value get after 			   decimal point
+
+strings   :-- will accepts the text information
+--------------------------------------------
+varchar(size)   :-- will accepts text data
+		    >>>255
+		    >>> will remove memory when data is empty
+char(size)      :-- will accepts text data
+		    >>>255
+		    >>> fixed size
+
+text            :-- will accepts text data
+
+date    :--  will accepts date type data
+------------------------------------
+date    :-- 'yyyy-mm-dd'
+time    :-- 'HH:MM:SS'
+datetime:-- 'yyyy-mm-dd HH:MM:SS'
+
+
+===================================================================
+
+create database batch;
+
+show databases;
+
+use batch;
+
+create table numerical(
+sno int,
+phone bigint,
+percentage float,
+accuarcy double,
+attend decimal(10,3)
+);
+
+show tables;
+
+select * from numerical;
+
+
+
+
+insert into numerical values(2147483647,2147483648,7.1234321356687,7.1234321356687,7.1234321356687);
+
+create table data(
+car_num char(5),
+name varchar(100),
+address text
+);
+
+
+select * from data;
+
+insert into data values('ap23t','sai','USA');
+
+create table info(
+dob date,
+dot time,
+joining_date datetime
+);
+
+select * from info;
+
+insert into info values('2026-05-21','08:09:22','2026-05-21 07:08:09');
+
+
+
+
+
+
+

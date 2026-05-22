@@ -1,0 +1,58 @@
+ddl  :-- data definition language :-- will perform operation on database and table architecture or table heading
+
+create    :-- it is used create any thing in 		     database 
+
+creating database :
+-----------------------------------
+>>>create database database_name;
+
+display database:
+-----------------------------------
+>>>show databases;
+
+selecting a database :
+---------------------------------
+>>>use database_name; 
+
+display the table:--
+--------------------------
+>>>show tables;
+
+creating a table:
+----------------------------
+>>>create table table_name(
+column_name1 datatype,
+column_name2 datatype,
+column_name3 datatype
+);
+
+datatypes :-- will identify which type of data it is
+
+numerical:-- we can pass only numbers
+--------------------------------------
+int
+bigint
+float
+double
+decimal(s,p)
+
+strings :-- we can pass text data 
+-------------------------------------------------
+varchar(size)
+char(size)
+text
+
+date   :-- will send data which as date or time format
+--------------------------------------------------
+date
+time
+datetime
+
+
+
+
+
+alter
+rename
+truncate
+drop

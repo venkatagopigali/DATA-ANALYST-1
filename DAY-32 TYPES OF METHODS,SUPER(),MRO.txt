@@ -1,0 +1,35 @@
+method :-- nothing a function which is declare in 		inside
+
+instance method  :-- we can used to send method to 			inside another method
+>>>def method_name(self):
+	#block of code
+
+super()  :-- will send a method into another class
+>>>super().method_name()
+
+
+
+
+
+class method  :-- will modify the data in class 		variable
+
+>>>@classmethod
+
+
+
+static method   :-- will cannot be modify the code or 			cannot be used variable at 			anywhere
+
+@staticmethod
+
+
+
+
+mro :-- method resolution order  :-- will identify the which will execute the first
+
+>>>classname.mro()
+or
+>>>classname.__mro__
+
+
+
+

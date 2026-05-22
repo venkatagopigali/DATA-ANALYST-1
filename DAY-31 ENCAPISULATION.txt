@@ -1,0 +1,29 @@
+encapsulation :-- will binding variable and methods in single unit
+
+>>>will provide the security to code 
+>>>reusable  code 
+
+
+>>>will provide the security to the code by using access modifiers
+
+access modifiers :
+---------------------------
+public        :-- we can use anywhere in the code 
+		>>>varibalename
+protected     :-- we can we same class and sub classes
+		>>>_variablename
+private       :-- we can use only same class
+		>>>__variablename
+
+
+
+name mangling :-- used access the private variable at outside class
+
+>>>_classname__variable
+
+
+
+
+
+
+

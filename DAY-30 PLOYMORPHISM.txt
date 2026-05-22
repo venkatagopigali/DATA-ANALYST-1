@@ -1,0 +1,27 @@
+
+polymorphism
+-------------------------------
+duck typing
+method overloading (compile time)
+method overriding (runtime)  :-- will stop the 	implementation of previous when we crate a 	same method
+
+
+operator overloading  :-- will change operation for 			an operator
+
+
+dunder_metods:
+
+__add__()		--> +
+__sub__()		--> -
+__mul__()		--> *
+__truediv__()		--> /
+__mod__()		--> %
+__floordiv__()		--> //
+__pow__()		--> **
+__lt__()    		--> less then   (<)
+__gt__()		--> greater then(>)
+__le__()		--> less then or equals(<=)
+__ge__()		--> greater then or equal(>=)
+__eq__()		--> equal (==)
+__ne__()		--> not equal (!=)
+
