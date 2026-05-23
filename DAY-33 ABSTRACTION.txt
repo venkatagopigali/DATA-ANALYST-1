@@ -1,0 +1,2 @@
+abstraction :-- will hide the unnecessary code will display necessary code 
+>>>we cannot implement methods in same class but we can use in subclasess

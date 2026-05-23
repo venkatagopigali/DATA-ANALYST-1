@@ -1,0 +1,99 @@
+ddl :-- 
+
+create      :-- 
+alter       :-- will perform operation on table 		architecture
+
+>>>add column      :-- will add a new column to 			existing table
+
+>>>at last :
+--------------
+>>>alter table table_name add column column_name datatype;
+
+>>>at middle :-
+-------------------
+>>>alter table table_name add column column_name datatype after exsting_column_name;
+
+>>>at first :--
+---------------------
+>>>alter table table_name add column column_name datatype first; 
+
+
+
+>>>rename column  :-- will used to change the 				column_name
+---------------------------------------------
+>>>alter table table_name rename column old_column_name to new_column_name;
+
+
+
+>>>drop column   :-- will used to remove the columns 			from a table
+-----------------------------------------------
+>>>alter table table_name drop column column_name;
+
+>>>change datatype  :--  will change datatype
+-----------------------------------------------
+>>>alter table table_name modify column old_column_name new_datatype;
+
+
+display the table properties:
+------------------------------
+>>>describe table_name;
+or
+>>>desc table_name;
+
+
+rename
+truncate 
+drop
+
+===================================================
+
+create database analyst;
+
+show databases;
+
+-- selecting data base
+
+use analyst;
+
+create table emp(
+id int,
+name varchar(100),
+age int
+);
+
+show tables;
+
+select * from emp;
+
+
+insert into emp values(1,'sai',22);
+
+alter table emp add column phone bigint;
+
+select * from emp;
+
+alter table emp add column adress varchar(100);
+
+alter table emp add column salary int after name;
+
+select * from emp;
+
+alter table emp add column sno int first;
+
+alter table emp add column gender varchar(10) after age;
+
+alter table emp rename column adress to location;
+
+select * from emp;
+
+alter table emp drop column age;
+
+alter table emp rename column name to fullname;
+
+alter table emp drop column salary;
+
+describe emp;
+
+alter table emp modify column sno varchar(100);
+
+alter table emp modify column phone text;
