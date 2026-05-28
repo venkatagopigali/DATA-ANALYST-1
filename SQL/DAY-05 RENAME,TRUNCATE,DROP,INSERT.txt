@@ -1,0 +1,48 @@
+ddl 
+
+create 
+alter 
+rename     :-- we can change table name 
+>>>rename table old_name to new_name;
+
+truncate   :-- will remove table data only but keep 		table architecture
+>>>truncate table table_name;
+
+drop       :-- will remove both data and table 			architecture
+
+>>>drop table table_name;
+
+remove database
+--------------------
+>>>drop database database_name;
+
+dml :-- data manipulation language
+
+insert  :-- will add a new record  or row to the 		table
+
+single record :
+---------------------
+>>>insert into table_name values(val1,val2,val3---);
+
+multiple records :
+-------------------------
+>>>insert into table_name values(val1,val2,val3----),
+(val1,val2,val3-----),
+(val1,val2,val3-----);
+
+selected columns :
+------------------------------
+>>> insert into table_name(column_name1,column_name2)
+values(val1,val2);
+
+
+
+
+update 
+delete
+
+
+
+
+
+
