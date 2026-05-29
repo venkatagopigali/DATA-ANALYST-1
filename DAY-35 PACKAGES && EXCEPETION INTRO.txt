@@ -1,0 +1,40 @@
+package :-- collection of .py files or collection of 		moduel
+
+
+error :-- it is nothing but a mistake
+
+compile time error (syntax error)  :-- will raise error 		during the compile or will raise when 		the syntax mistake
+
+>>>we cannot modified or can modified by correcting syntax
+
+runtime time error   :-- will raise error during the run time  
+logical error :-- which created by user
+
+>>>we can solve runtime errors using exception handling
+
+
+
+exception handling :--we can solve runtime errors
+
+ZeroDivisionError  :-- will raise the  number will 			divided with zero
+NameError          :-- will raise when the variable 			name are not defined or 			spelling mistakes
+ValueError         :-- will raise when the data type is 			mismatched
+FileNotFoundError
+IndexError
+KeyError
+
+
+try:
+	#block of code :--which is possible raise an 			exception
+except type_exception:
+	#message 
+
+
+
+
+
+
+
+
+
+
