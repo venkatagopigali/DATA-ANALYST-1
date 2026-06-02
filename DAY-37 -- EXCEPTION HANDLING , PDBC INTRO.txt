@@ -1,0 +1,36 @@
+exception hadling:
+
+
+
+else :-- will execute if exception is not raised
+	 >>> there will no  logical errors in try block
+
+try:
+	# block of code
+except type_of_exception:
+	# message
+else:
+	#message
+finally :
+	#message
+
+
+PDBC
+----------------------------------
+
+
+import pymysql
+conn=pymysql.connect(
+    host='localhost',
+    user='root',
+    password='gopi@1234',
+    database='analyst'
+)
+# print(conn)
+
+cur=conn.cursor()       # will helps to read the commands
+cur.execute("select * from emp")  # will excecute commands
+
+for i in cur:
+    print(i)
+conn.commit()

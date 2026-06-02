@@ -1,0 +1,37 @@
+exception handling :
+
+ZeroDivisionError
+NameError
+ValueError
+FileNotFoundError   :-- will raise when the file location is change 			or file is change
+IndexError          :-- will raise when the index position is not 			present
+KeyError            :-- will raise when the key is not present in 			dictionary
+
+
+
+Exception :-- will accepts the any type error
+>>>universal notation
+
+
+
+finally :-- will execute the block of when the exception is raised 		or not
+
+try:
+	# block of code
+except type_of_exception:
+	# message
+finally:
+	#block of code
+
+
+
+
+
+
+
+
+
+
+
+
+

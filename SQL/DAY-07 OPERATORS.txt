@@ -1,0 +1,76 @@
+OPERATOR :-- will perform an operation between operands or values or operand to values
+
+
+
+
+arithmetic    :-- will perform the mathematical operations
+			(+,-,*,/,%,**)
+comparison    :-- will compare the values or operands or values to 			operand
+			(=,>,<,>=,<=,!= or <>)
+logical       :-- will check the condition is true or false
+
+>>>and           :-- will must be true all condition
+>>>or	         :-- will be true atleast one condition
+>>>not           :--  true/false--- flase/true
+
+
+membership   :-- will check the values is present or not in group 		of values
+in           :-- will return true when element is present
+not in       :-- will return true when element is not present
+
+
+identify     :-- will compare the address 
+
+is           :-- will true when the cell is null
+is not       :-- will true when the cell contain data
+
+
+========================================================================
+
+show databases;
+
+use analyst;
+
+show tables;
+
+select * from stu;
+
+insert into stu values
+(1,'rahul',25,'usa'),
+(2,'prasanna',26,'usa'),
+(3,'sai',27,'usa'),
+(4,'rakesh',28,'hyd');
+
+select *,sno/age from stu;
+
+
+select * from stu;
+
+select * from stu where location='hyd';
+
+select * from stu where age<>27;
+
+select *from stu;
+
+
+select * from stu where age>=26 and location='usa' and name='sai';
+
+select * from stu where age>=26 or location='hyd';
+
+select * from stu where not age>=26;
+
+select * from stu;
+
+select * from stu where location in ('usa','hyd');
+
+select * from stu where age in (20,25);
+
+select * from stu;
+
+insert into stu(sno,age) values(5,30),(6,40);
+
+select * from stu where name is not null;
+
+select * from stu where name is  null;
+
+
