@@ -1,0 +1,73 @@
+constraints :-- will send the data into table based 		condition or will send the data after 		validation
+
+unique            :-- will not accepts duplicate but 			accepts null value
+not null          :-- will not accepts the null value
+		     will accepts the duplicates values
+check             :-- will send the data into column 			after condition is validated
+default
+auto_increment 
+
+
+create table table_name(
+column_name datatype constraint
+);
+
+create table table_name(
+column_name datatype check (condition)
+);
+
+======================================================================================================
+
+
+use analyst;
+
+create table student(
+s_id int,
+name varchar(100),
+age int,
+class int
+);
+
+select * from student;
+
+insert into student values(2,'gopi',26,6);
+
+insert into student(name,age,class) values('venky',27,7);
+
+
+create table sample1(
+sno int unique,
+name varchar(100),
+age int
+);
+
+select * from sample1;
+
+desc sample1;
+
+insert into sample1(name,age) values('gopi',26);
+
+select * from sample1;
+
+
+create table sample2(
+sno int,
+name varchar(100) not null
+);
+
+select * from sample2;
+
+desc sample2;
+
+insert into sample2(sno) values(1);
+
+create table sample3(
+name varchar(100),
+age int check (age>=18)
+);
+
+select * from sample3;
+
+insert into sample3(name) values('rahul');
+
+desc sample3;
