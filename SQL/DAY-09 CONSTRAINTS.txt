@@ -1,0 +1,94 @@
+constraints :
+
+unique
+not null
+check 
+default           :-- will send a value automatically when we are 			try to send the null values
+auto_increment    :-- will assign a number to the row by 				default start from 1
+
+==========================================================
+
+use analyst;
+
+create table sample4(
+sno int,
+name varchar(100),
+graduation varchar(100) default 'B.Tech'
+);
+
+desc sample4;
+
+insert into sample4 values(1,'prasanna','degree');
+
+select * from sample4;
+
+insert into sample4(sno,name) values(2,'Rahul');
+
+create table sample5(
+sno int unique auto_increment,
+name varchar(100),
+age int
+);
+
+desc sample5;
+
+insert into sample5(name,age) values('rahul',27),
+('prasanna',26),
+('ramesh',28);
+
+select * from sample5;
+
+delete from sample5 where sno=12;
+
+create table sample6(
+sno int unique auto_increment,
+name varchar(100),
+age int
+)auto_increment=1000;
+
+insert into sample6(name,age) values('sai',25),
+('prasanna',26),
+('rahul',27);
+
+select * from sample6;
+
+delete from sample6 where sno=1002;
+
+create table sample7(
+id int unique auto_increment,
+name varchar(100) not null,
+email varchar(100) not null unique,
+age int check (age>=20),
+dept varchar(100) default 'Hr'
+);
+
+desc sample7;
+
+insert into sample7(name,age) values('rahul',25);
+
+select * from sample7;
+
+desc sample7;
+
+
+
+
+
+
+>>>create table table_name(
+column_name datatype default 'value'
+);
+
+
+
+>>>create table table_name(
+column_name datatype unique auto_increment
+);
+
+>>>create table table_name(
+column_name datatype unique auto_increment
+)auto_increment=start_num;
+
+
+
+
