@@ -1,0 +1,85 @@
+clause :-- will extract the data from table based on condition
+
+where       :-- will filter or grouping data based on condition
+
+>>>select * from table_name where condition;
+
+order by    :-- will set a order to data either asc or desc
+
+>>>select * from table_name order by column_name;
+
+limit       :-- will select the no.of record from start of table
+
+>>>select * from table_name limit no.of_records;
+
+
+
+
+distinct
+group by
+having
+
+
+
+offset
+
+=============================================================
+create database company;
+
+show databases;
+
+use company;
+
+show tables;
+
+create table manager(
+m_id int unique not null,
+m_name varchar(100) not null,
+m_age int,
+department varchar(100) not null
+);
+
+select * from manager;
+
+create table admin(
+a_id int unique not null,
+a_name varchar(100) not null,
+age int,
+location varchar(100)
+);
+
+select * from admin;
+
+create table employee(
+e_id int unique not null,
+e_name varchar(100) not null,
+age int,
+department varchar(100),
+location varchar(100)
+);
+
+select * from employee;
+
+select * from manager;
+
+use analyst;
+
+select * from emp;
+
+show tables;
+
+select * from orders_2024_jan_jun;
+
+select * from orders_2024_jan_jun where region='North';
+
+
+select * from orders_2024_jan_jun where paymentmethod='COD' and region='North';
+
+select * from orders_2024_jan_jun order by customerid desc;
+
+select * from orders_2024_jan_jun order by category desc;
+
+select * from orders_2024_jan_jun order by category desc,totalamount asc;
+
+
+select * from orders_2024_jan_jun limit 500;
